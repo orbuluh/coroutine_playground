@@ -2,9 +2,12 @@
 
 #include "conceptual_coroutine.hpp"
 #include "flow_of_calls.hpp"
-#include "util/utility.hpp"
+#include "multithread_scheduler.hpp"
+#include "singlethread_scheduler.hpp"
 
 int main() {
   // conceptual_coroutine::run();
-  flow_of_calls::run();
+  // flow_of_calls::run();
+  // singlethread_scheduler::run();
+  multithread_scheduler::run();
 }

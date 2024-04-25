@@ -1,3 +1,7 @@
+#include <iostream>
+
 namespace util {
-int get_value();
+
+std::ostream& tid_cout();
+
 }  // namespace util
